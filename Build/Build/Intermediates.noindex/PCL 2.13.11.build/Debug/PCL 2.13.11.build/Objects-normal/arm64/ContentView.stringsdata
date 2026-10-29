@@ -1,0 +1,1112 @@
+{
+  "source": "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "请支持正版 Minecraft",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "支持原作者龙腾猫跃",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "任务管理",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 139,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录已购买的微软账号",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "购买正版",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "以试玩模式启动",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "返回",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "请先登录正版账号验证购买记录。未验证购买时，离线启动将使用试玩模式。",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "赞助原作者",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "下次再说",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "PCL 已为你启动 %lld 次游戏。感谢龙腾猫跃开发 PCL，欢迎支持原项目持续更新。",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "游戏版本",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择版本",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "账号",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "离线 / 试玩",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择目录",
+        "location": {
+          "startingColumn": 109,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开",
+        "location": {
+          "startingColumn": 156,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "到下载页安装游戏，或选择已包含 versions 文件夹的目录。",
+        "location": {
+          "startingColumn": 141,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索版本",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "尚未安装版本",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "已选择",
+        "location": {
+          "startingColumn": 83,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择",
+        "location": {
+          "startingColumn": 97,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "导出包含游戏目录文件，不包含账号令牌、Java 或共享支持库；此 ZIP 是备份。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "检查 / 修复",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mod 管理",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开游戏目录",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "导出游戏文件 ZIP",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "新实例名称",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "创建隔离实例",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 133
+        }
+      },
+      {
+        "comment": "",
+        "key": "点击刷新列表即可获取可安装的 Minecraft 版本。",
+        "location": {
+          "startingColumn": 120,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "读取官方版本列表",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "支持 Modrinth、MultiMC/Prism 和原版 HMCL；Modrinth 可选客户端文件默认跳过。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "新实例名称",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 159
+        }
+      },
+      {
+        "comment": "",
+        "key": "导入 .mrpack / ZIP",
+        "location": {
+          "startingColumn": 116,
+          "startingLine": 159
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索 Minecraft 版本",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "快照 / 历史版",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "刷新列表",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "自动选择兼容的稳定 Fabric Loader",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "安装类型",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 169
+        }
+      },
+      {
+        "comment": "",
+        "key": "加载器版本，例如 1.20.1-47.4.0",
+        "location": {
+          "startingColumn": 74,
+          "startingLine": 170
+        }
+      },
+      {
+        "comment": "",
+        "key": "安装",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "通过系统浏览器输入设备码登录。访问令牌与刷新令牌保存在 macOS 钥匙串中。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "先到设置页填写你自己的 Microsoft 应用 Client ID。",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 198
+        }
+      },
+      {
+        "comment": "",
+        "key": "添加微软账号",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用",
+        "location": {
+          "startingColumn": 151,
+          "startingLine": 200
+        }
+      },
+      {
+        "comment": "",
+        "key": "移除",
+        "location": {
+          "startingColumn": 217,
+          "startingLine": 200
+        }
+      },
+      {
+        "comment": "",
+        "key": "仅支持 1–16 个英文字母、数字和下划线。登录正版账号验证购买后可进行离线游玩。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 205
+        }
+      },
+      {
+        "comment": "",
+        "key": "玩家名",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用离线账号",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "购买 Minecraft",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录 Microsoft 账号",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 219
+        }
+      },
+      {
+        "comment": "",
+        "key": "在浏览器打开验证网址，并输入下面的设备码。",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 220
+        }
+      },
+      {
+        "comment": "",
+        "key": "等待浏览器登录完成……",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 229
+        }
+      },
+      {
+        "comment": "",
+        "key": "复制设备码",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 224
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开登录网页",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 225
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "为 Fabric、Forge 或 NeoForge 实例导入 Mod。",
+        "location": {
+          "startingColumn": 136,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "没有本地 Mod",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索本地 Mod",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "导入 JAR",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开 mods 文件夹",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 243
+        }
+      },
+      {
+        "comment": "",
+        "key": "下载 Mod",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 244
+        }
+      },
+      {
+        "comment": "",
+        "key": "禁用",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 253
+        }
+      },
+      {
+        "comment": "",
+        "key": "启用",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 253
+        }
+      },
+      {
+        "comment": "",
+        "key": "移到废纸篓",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 254
+        }
+      },
+      {
+        "comment": "",
+        "key": "输入名称搜索，或直接搜索以查看热门项目。",
+        "location": {
+          "startingColumn": 136,
+          "startingLine": 276
+        }
+      },
+      {
+        "comment": "",
+        "key": "浏览社区资源",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 276
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索 Modrinth",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 271
+        }
+      },
+      {
+        "comment": "",
+        "key": "类型",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 273
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mod",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "资源包",
+        "location": {
+          "startingColumn": 97,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "光影",
+        "location": {
+          "startingColumn": 136,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "整合包",
+        "location": {
+          "startingColumn": 166,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "仅显示兼容所选版本的资源",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 275
+        }
+      },
+      {
+        "comment": "",
+        "key": "版本",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 287
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ 次下载",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 284
+        }
+      },
+      {
+        "comment": "",
+        "key": "游戏：%@ · %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 296
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在读取，或筛选条件下没有兼容版本。",
+        "location": {
+          "startingColumn": 146,
+          "startingLine": 297
+        }
+      },
+      {
+        "comment": "",
+        "key": "光影文件需配合 Iris 或 OptiFine 使用。",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 307
+        }
+      },
+      {
+        "comment": "",
+        "key": "没有可安装版本",
+        "location": {
+          "startingColumn": 76,
+          "startingLine": 297
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 85,
+          "startingLine": 295
+        }
+      },
+      {
+        "comment": "",
+        "key": "安装",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 303
+        }
+      },
+      {
+        "comment": "",
+        "key": "游戏目录",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 320
+        }
+      },
+      {
+        "comment": "",
+        "key": "Java",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 327
+        }
+      },
+      {
+        "comment": "",
+        "key": "启动参数",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 342
+        }
+      },
+      {
+        "comment": "",
+        "key": "Microsoft 登录",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "界面与音乐",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 356
+        }
+      },
+      {
+        "comment": "",
+        "key": "配置",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 360
+        }
+      },
+      {
+        "comment": "",
+        "key": "隔离实例的存档、Mod、配置保存在 versions/<实例>/game。整合包始终保持隔离。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 324
+        }
+      },
+      {
+        "comment": "",
+        "key": "应用目录并重新扫描",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 322
+        }
+      },
+      {
+        "comment": "",
+        "key": "默认启用版本隔离",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 323
+        }
+      },
+      {
+        "comment": "",
+        "key": "路径",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 321
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择",
+        "location": {
+          "startingColumn": 86,
+          "startingLine": 321
+        }
+      },
+      {
+        "comment": "",
+        "key": "Apple Silicon 默认安装 ARM Java。Minecraft 旧版缺少 ARM 原生库时需 Intel Java 与 Rosetta 2。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 339
+        }
+      },
+      {
+        "comment": "",
+        "key": "运行时",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "自动选择兼容 Java",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 329
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择 java 文件",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 333
+        }
+      },
+      {
+        "comment": "",
+        "key": "重新检测",
+        "location": {
+          "startingColumn": 86,
+          "startingLine": 333
+        }
+      },
+      {
+        "comment": "",
+        "key": "安装 Temurin JDK",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 335
+        }
+      },
+      {
+        "comment": "",
+        "key": "Intel x64",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 336
+        }
+      },
+      {
+        "comment": "",
+        "key": "下载并安装",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 337
+        }
+      },
+      {
+        "comment": "",
+        "key": "Java %lld",
+        "location": {
+          "startingColumn": 123,
+          "startingLine": 335
+        }
+      },
+      {
+        "comment": "",
+        "key": "内存：%lld MB",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 343
+        }
+      },
+      {
+        "comment": "",
+        "key": "全屏启动",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 345
+        }
+      },
+      {
+        "comment": "",
+        "key": "JVM 额外参数",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 346
+        }
+      },
+      {
+        "comment": "",
+        "key": "游戏额外参数",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 347
+        }
+      },
+      {
+        "comment": "",
+        "key": "自动加入服务器（可留空）",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 348
+        }
+      },
+      {
+        "comment": "",
+        "key": "窗口宽度",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 344
+        }
+      },
+      {
+        "comment": "",
+        "key": "窗口高度",
+        "location": {
+          "startingColumn": 110,
+          "startingLine": 344
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用允许个人微软账号、已开启公共客户端登录，且获准访问 Minecraft 服务的应用注册。Client ID 不是客户端密码；此项目不附带官方 PCL 的应用凭据。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 352
+        }
+      },
+      {
+        "comment": "",
+        "key": "应用 Client ID",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 351
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看微软设备码登录文档",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 354
+        }
+      },
+      {
+        "comment": "",
+        "key": "外观",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 357
+        }
+      },
+      {
+        "comment": "",
+        "key": "跟随系统",
+        "location": {
+          "startingColumn": 80,
+          "startingLine": 357
+        }
+      },
+      {
+        "comment": "",
+        "key": "浅色",
+        "location": {
+          "startingColumn": 116,
+          "startingLine": 357
+        }
+      },
+      {
+        "comment": "",
+        "key": "深色",
+        "location": {
+          "startingColumn": 145,
+          "startingLine": 357
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择背景音乐",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 358
+        }
+      },
+      {
+        "comment": "",
+        "key": "暂停",
+        "location": {
+          "startingColumn": 161,
+          "startingLine": 358
+        }
+      },
+      {
+        "comment": "",
+        "key": "播放",
+        "location": {
+          "startingColumn": 172,
+          "startingLine": 358
+        }
+      },
+      {
+        "comment": "",
+        "key": "设置自动保存；登录凭据保存在钥匙串，不写入 settings.json。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 362
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开配置文件夹",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 361
+        }
+      },
+      {
+        "comment": "",
+        "key": "筛选日志",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 375
+        }
+      },
+      {
+        "comment": "",
+        "key": "导出",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 376
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开日志目录",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 377
+        }
+      },
+      {
+        "comment": "",
+        "key": "清空显示",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 378
+        }
+      },
+      {
+        "comment": "",
+        "key": "感谢龙腾猫跃开发 Plain Craft Launcher，并提供源代码供社区学习与二次创作。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "赞助龙腾猫跃",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "原项目源码",
+        "location": {
+          "startingColumn": 121,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "此项目是第三方基于 PCL 2.13.1.1 独立进行二次创作的原生 macOS 迁移项目，与 PCL 官方无隶属关系。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 405
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用 Swift、SwiftUI、AppKit、Foundation、Security 与 AVFoundation 实现。无需 Windows 或 Wine。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 406
+        }
+      },
+      {
+        "comment": "",
+        "key": "当前迁移版本：0.1.0 · 尚未达到 Windows 版的完整功能等价。完整源代码与迁移覆盖表随 Xcode 工程提供。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 407
+        }
+      },
+      {
+        "comment": "",
+        "key": "1. 设置 Minecraft 目录，并安装相应的 Java。\n2. 下载原版或加载器版本，或导入整合包。\n3. 配置微软 Client ID 并登录账号；未验证正版账号可使用试玩。\n4. 在启动页选择版本和账号，启动游戏。\n5. 遇到问题时，检查日志并导出诊断信息。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 411
+        }
+      },
+      {
+        "comment": "",
+        "key": "Minecraft 官网",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 412
+        }
+      },
+      {
+        "comment": "",
+        "key": "PCL 帮助文档",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 413
+        }
+      },
+      {
+        "comment": "",
+        "key": "已实现：原版与 Fabric 安装、现代 Forge/NeoForge 安装器接入、版本继承、Intel/ARM 原生库选择、Java 管理、微软登录与刷新、试玩、Modrinth 资源及必需依赖、Mod 启停、整合包导入、游戏日志与基础崩溃提示、配置、背景音乐。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 416
+        }
+      },
+      {
+        "comment": "",
+        "key": "尚未迁移：CurseForge API、第三方 Authlib/Nide 登录、OptiFine/LiteLoader 自动安装、EasyTier 邀请码联机、XAML 自定义主页、Windows 更新与赞助解锁系统、完整崩溃规则库和部分整合包格式。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 417
+        }
+      }
+    ]
+  },
+  "version": 1
+}

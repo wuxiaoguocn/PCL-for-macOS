@@ -1,0 +1,392 @@
+{
+  "source": "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLLibraryPages.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "无可用版本",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "未找到任何版本的游戏，请先下载任意版本的游戏。\n若有已存在的游戏，请在左边选择 Minecraft 文件夹将其导入。",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "下载游戏",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索版本",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "试试其他关键词。",
+        "location": {
+          "startingColumn": 91,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "创建隔离实例",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "基于：%@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "新实例名称",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "创建",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "版本设置",
+        "location": {
+          "startingColumn": 84,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择此版本",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "检查 / 修复",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mod 管理",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开游戏目录",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "导出游戏文件 ZIP",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "创建隔离实例",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "数据包搜索与安装尚未迁移。可先前往 Modrinth 下载，将文件放入目标存档的 datapacks 文件夹。",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "前往 Modrinth 数据包页面",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "支持 Modrinth、MultiMC / Prism 和原版 HMCL 整合包。",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "实例名称",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "新实例名称",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "导入整合包",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在获取%@列表",
+        "location": {
+          "startingColumn": 108,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "请修改名称或版本条件后重新搜索。",
+        "location": {
+          "startingColumn": 89,
+          "startingLine": 155
+        }
+      },
+      {
+        "comment": "",
+        "key": "名称",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "来源",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 169
+        }
+      },
+      {
+        "comment": "",
+        "key": "Modrinth",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 170
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 168
+        }
+      },
+      {
+        "comment": "",
+        "key": "版本",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "类型",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "版本",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 176
+        }
+      },
+      {
+        "comment": "",
+        "key": "全部",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "当前游戏版本",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ · %@",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "当前游戏版本",
+        "location": {
+          "startingColumn": 99,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "重置条件",
+        "location": {
+          "startingColumn": 91,
+          "startingLine": 185
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ 次下载  ·  Modrinth",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "返回搜索",
+        "location": {
+          "startingColumn": 173,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "转到 Modrinth",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 223
+        }
+      },
+      {
+        "comment": "",
+        "key": "复制名称",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 224
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在获取版本列表",
+        "location": {
+          "startingColumn": 96,
+          "startingLine": 228
+        }
+      },
+      {
+        "comment": "",
+        "key": "当前版本条件下没有找到兼容文件。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 231
+        }
+      },
+      {
+        "comment": "",
+        "key": "显示所有版本",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 232
+        }
+      },
+      {
+        "comment": "",
+        "key": "光影文件需配合 Iris 或 OptiFine 使用。",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 253
+        }
+      },
+      {
+        "comment": "",
+        "key": "请先在启动页选择游戏版本。",
+        "location": {
+          "startingColumn": 93,
+          "startingLine": 254
+        }
+      },
+      {
+        "comment": "",
+        "key": "安装",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 248
+        }
+      }
+    ]
+  },
+  "version": 1
+}

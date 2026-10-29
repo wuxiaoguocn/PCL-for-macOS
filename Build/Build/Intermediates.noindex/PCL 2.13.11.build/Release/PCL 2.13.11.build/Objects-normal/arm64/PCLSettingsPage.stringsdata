@@ -1,0 +1,296 @@
+{
+  "source": "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLSettingsPage.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "关闭",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "隔离所有版本",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "×",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "宽",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "高",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "全屏",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "自定义尺寸",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "不自动加入",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "自定义",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "游戏分配",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "电脑总内存",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "旧版 Minecraft 在 Apple Silicon 上可能需要 Intel Java 与 Rosetta 2。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "默认",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "默认",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "自动选择兼容 Java",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "手动导入",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索 Java",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Intel x64",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "下载",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "Java %lld",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "",
+        "key": "隔离版本的存档、Mod 与配置保存在 versions/<实例>/game。整合包使用独立档案。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "路径",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择文件夹",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "重新扫描",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "默认蓝色",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "添加音乐",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 163
+        }
+      },
+      {
+        "comment": "",
+        "key": "暂停音乐",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "播放音乐",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "空白",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "填写允许个人微软账号、启用公共客户端登录并获准访问 Minecraft 服务的应用注册 Client ID。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看登录文档",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "Client ID",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 181
+        }
+      },
+      {
+        "comment": "",
+        "key": "设置自动保存。登录凭据保存在 macOS 钥匙串。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开配置文件夹",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 194
+        }
+      },
+      {
+        "comment": "",
+        "key": "启动时自动加入指定的 Minecraft 服务器。邀请码联机功能尚在迁移中。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "服务器地址，可留空",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 206
+        }
+      }
+    ]
+  },
+  "version": 1
+}

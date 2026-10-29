@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameAccentColor</string>
+			<key>relativePath</key>
+			<string>./AccentColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>accent</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameFabricLoader</string>
+			<key>relativePath</key>
+			<string>./FabricLoader.imageset</string>
+			<key>swiftSymbol</key>
+			<string>fabricLoader</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameForgeLoader</string>
+			<key>relativePath</key>
+			<string>./ForgeLoader.imageset</string>
+			<key>swiftSymbol</key>
+			<string>forgeLoader</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLiteLoader</string>
+			<key>relativePath</key>
+			<string>./LiteLoader.imageset</string>
+			<key>swiftSymbol</key>
+			<string>liteLoader</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameMinecraftGrass</string>
+			<key>relativePath</key>
+			<string>./MinecraftGrass.imageset</string>
+			<key>swiftSymbol</key>
+			<string>minecraftGrass</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNeoForgeLoader</string>
+			<key>relativePath</key>
+			<string>./NeoForgeLoader.imageset</string>
+			<key>swiftSymbol</key>
+			<string>neoForgeLoader</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOptiFineLoader</string>
+			<key>relativePath</key>
+			<string>./OptiFineLoader.imageset</string>
+			<key>swiftSymbol</key>
+			<string>optiFineLoader</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSteveSkin</string>
+			<key>relativePath</key>
+			<string>./SteveSkin.imageset</string>
+			<key>swiftSymbol</key>
+			<string>steveSkin</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

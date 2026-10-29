@@ -1,0 +1,56 @@
+Building for debugging...
+[1 / 5]
+[2 / 7] PCLCoreTests-product
+[4 / 9] PCLCoreTests-product
+[8 / 12] PCLCoreTests-product
+[10 / 12] PCLCoreTests-product
+Build complete! (15.67秒)
+Test Suite 'All tests' started at 2026-10-07 21:45:04.851.
+Test Suite 'PCLCoreTests.xctest' started at 2026-10-07 21:45:04.852.
+Test Suite 'CoreTests' started at 2026-10-07 21:45:04.852.
+Test Case '-[PCLCoreTests.CoreTests testAppleSiliconNativeSelection]' started.
+Test Case '-[PCLCoreTests.CoreTests testAppleSiliconNativeSelection]' passed (0.010 seconds).
+Test Case '-[PCLCoreTests.CoreTests testArchiveExtractsValidFiles]' started.
+Test Case '-[PCLCoreTests.CoreTests testArchiveExtractsValidFiles]' passed (0.010 seconds).
+Test Case '-[PCLCoreTests.CoreTests testArchiveRejectsSymlinksBeforeExtraction]' started.
+Test Case '-[PCLCoreTests.CoreTests testArchiveRejectsSymlinksBeforeExtraction]' passed (0.002 seconds).
+Test Case '-[PCLCoreTests.CoreTests testArgumentsKeepPathsAndRejectBrokenQuotes]' started.
+Test Case '-[PCLCoreTests.CoreTests testArgumentsKeepPathsAndRejectBrokenQuotes]' passed (0.000 seconds).
+Test Case '-[PCLCoreTests.CoreTests testFabricAndModrinthEndpointsLive]' started.
+Test Case '-[PCLCoreTests.CoreTests testFabricAndModrinthEndpointsLive]' passed (2.947 seconds).
+Test Case '-[PCLCoreTests.CoreTests testHugeJSONIntegerDoesNotTrap]' started.
+Test Case '-[PCLCoreTests.CoreTests testHugeJSONIntegerDoesNotTrap]' passed (0.000 seconds).
+Test Case '-[PCLCoreTests.CoreTests testInheritanceLibraryOverrides]' started.
+Test Case '-[PCLCoreTests.CoreTests testInheritanceLibraryOverrides]' passed (0.000 seconds).
+Test Case '-[PCLCoreTests.CoreTests testIntelNativeSelection]' started.
+Test Case '-[PCLCoreTests.CoreTests testIntelNativeSelection]' passed (0.009 seconds).
+Test Case '-[PCLCoreTests.CoreTests testLegacyClassifierSelection]' started.
+Test Case '-[PCLCoreTests.CoreTests testLegacyClassifierSelection]' passed (0.004 seconds).
+Test Case '-[PCLCoreTests.CoreTests testMalformedCoordinatesThrowInsteadOfCrashing]' started.
+Test Case '-[PCLCoreTests.CoreTests testMalformedCoordinatesThrowInsteadOfCrashing]' passed (0.000 seconds).
+Test Case '-[PCLCoreTests.CoreTests testOfficialMetadataDownloadAndChecksumLive]' started.
+Test Case '-[PCLCoreTests.CoreTests testOfficialMetadataDownloadAndChecksumLive]' passed (1.505 seconds).
+Test Case '-[PCLCoreTests.CoreTests testOfflineUUIDMatchesJavaNameUUID]' started.
+Test Case '-[PCLCoreTests.CoreTests testOfflineUUIDMatchesJavaNameUUID]' passed (0.001 seconds).
+Test Case '-[PCLCoreTests.CoreTests testProcessDrainsOutputAndReturnsStatus]' started.
+Test Case '-[PCLCoreTests.CoreTests testProcessDrainsOutputAndReturnsStatus]' passed (0.007 seconds).
+Test Case '-[PCLCoreTests.CoreTests testRealMetadataJavaVersions]' started.
+Test Case '-[PCLCoreTests.CoreTests testRealMetadataJavaVersions]' passed (0.017 seconds).
+Test Case '-[PCLCoreTests.CoreTests testRulesLastMatchingRuleWins]' started.
+Test Case '-[PCLCoreTests.CoreTests testRulesLastMatchingRuleWins]' passed (0.000 seconds).
+Test Case '-[PCLCoreTests.CoreTests testSymlinkTraversalRejected]' started.
+Test Case '-[PCLCoreTests.CoreTests testSymlinkTraversalRejected]' passed (0.001 seconds).
+Test Case '-[PCLCoreTests.CoreTests testTokenRedaction]' started.
+Test Case '-[PCLCoreTests.CoreTests testTokenRedaction]' passed (0.000 seconds).
+Test Case '-[PCLCoreTests.CoreTests testTraversalRejected]' started.
+Test Case '-[PCLCoreTests.CoreTests testTraversalRejected]' passed (0.000 seconds).
+Test Suite 'CoreTests' passed at 2026-10-07 21:45:09.368.
+	 Executed 18 tests, with 0 failures (0 unexpected) in 4.515 (4.516) seconds
+Test Suite 'PCLCoreTests.xctest' passed at 2026-10-07 21:45:09.368.
+	 Executed 18 tests, with 0 failures (0 unexpected) in 4.515 (4.516) seconds
+Test Suite 'All tests' passed at 2026-10-07 21:45:09.368.
+	 Executed 18 tests, with 0 failures (0 unexpected) in 4.515 (4.517) seconds
+􀟈  Test run started.
+􀄵  Testing Library Version: 2078
+􀄵  Target Platform: arm64e-apple-macos14.0
+􁁛  Test run with 0 tests in 0 suites passed after 0.001 seconds.

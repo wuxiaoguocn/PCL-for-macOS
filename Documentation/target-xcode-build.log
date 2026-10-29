@@ -1,0 +1,357 @@
+Command line invocation:
+    /Applications/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild -project "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11.xcodeproj" -scheme "PCL 2.13.11" -configuration Debug -derivedDataPath /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild -destination platform=macOS SWIFT_DEFAULT_ACTOR_ISOLATION=MainActor SWIFT_VERSION=6.0 CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+    SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor
+    SWIFT_VERSION = 6.0
+
+2026-10-07 21:40:20.633 xcodebuild[30193:1695178] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:macOS, arch:arm64, id:00008142-001444E00286401C, name:My Mac }
+{ platform:macOS, arch:x86_64, id:00008142-001444E00286401C, name:My Mac }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'PCL 2.13.11' in project 'PCL 2.13.11' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 028ea09cc2b193ae48829559ff0a388d
+Build description path: /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/XCBuildData/028ea09cc2b193ae48829559ff0a388d.xcbuilddata
+ClangStatCache /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKStatCaches.noindex/macosx27.0-26A5419a-e829b21a6f8c9b70876ba0858053c04445874285e5972fffeae925c4ab065928.sdkstatcache
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11.xcodeproj
+    /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -o /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKStatCaches.noindex/macosx27.0-26A5419a-e829b21a6f8c9b70876ba0858053c04445874285e5972fffeae925c4ab065928.sdkstatcache
+
+SwiftDriver PCL\ 2.13.11 normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftDriver -- /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PCL_2_13_11 -Onone @/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -target arm64-apple-macos14.0 -g -module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -F /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKStatCaches.noindex/macosx27.0-26A5419a-e829b21a6f8c9b70876ba0858053c04445874285e5972fffeae925c4ab065928.sdkstatcache -output-file-map /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex -sdk-module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-generated-files.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-own-target-headers.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-project-headers.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/include -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources-normal/arm64 -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources/arm64 -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-Swift.h -working-directory /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11 -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/DeveloperToolsSupport-5GDDD69OYB791WZZHFNTJHER3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-DXBL7XLT6AEX0SPZ5MWB4339E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_float-8W79G8B8A4PQYLFUGT9L9FRX1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/SwiftShims-EDWMSGGO5P27M91EXNOXIKLE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_stddef-EYRHSKJL57PMQO0NT691P7AUR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/ptrcheck-6JATRVHQPM6L8UQXWUUU1LM3L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_stdbool-AN9B2VO4TC08AV4BM6U252417.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_AvailabilityInternal-F1GFZQAR4TOFNGB4ZYV8G2VNH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_stdarg-3DI778MT6K2JFIL67A5C61W9N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/ptrauth-5P866SMQOYGOD7J7MYM0CPDPO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_DarwinFoundation1-9M0QN1ELQEQ17DEUC8WRXY34U.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_DarwinFoundation2-DABB31CTXL4A9EYCQUE4XAWOQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_limits-AGT4IXXI3KQTNZ1YTM91QVB9W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_tgmath-1CQVZ3I8P9KGBY1DL98FV0W8I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/string_h-5TOB4S1P1EB7QJIH29APXRDSX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_stdint-NYH7KMZ7JVMH5EC6929XT1Z4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/sys_types-315RH6VX3BUOR4AJ63OCJMU32.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_DarwinFoundation3-89FVMRGFO34TFVLBC1SUB4C8U.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_intrinsics-7LXT3YFAZYV65BIQ377M6R69S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_stdatomic-59GENCHSM6HVRUHA6Y1PQQA16.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/libDER-1UOCJSWMGVXWN8MZPFRRGOCN3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/_Builtin_inttypes-5JP9VBE6CKP2UJDRM5P1E57P2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Darwin-72ZZPGV9Q56TRPOFB15KPUI95.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/simd-C1VXXJZDXZ5VKNXOV6O3JXXH8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/libkern-9ANL5STCNMHUDOYT8AFDVA9U3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CUPS-DCY2DWG0SVKHJXTQD3YOQ532Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/MachO-4FEGU6A3PRXPP6KS9CBN7WBSI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/launch-BFP8HARE8WWZW10B48KR2CBSX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Spatial-537L91UAV4FZFD0MVQ8GNSA82.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/ObjectiveC-9VFV2MBS3OIP26FDFPOPBU7G1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/os_object-1NFFHJ8X1JTF1ILC2604MXWMT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/os_workgroup-108B0EPX197G0AQCMZI8AEAH8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Dispatch-592YM0SUK8HRTB1DUQDH9KAPM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/XPC-U9FR1ZLFWWHC4ZAW5O58LGYT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreFoundation-39PRUOVEDPPURV3AQUDXUSJB9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/os-1MBYSG6DYMHQP3QRXKDY1N49C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Security-91T17HWQY5T1NYGXURECBTT2C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CFNetwork-291OWWYC9P6EFBA0OCWX6ILTY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreAudioTypes-EOTQH7I3K3DWMSYX394F0AQS9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/IOKit-AEJKZ99CB7HB3TQ61WYRP04K9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/ColorSync-B25FQQG9AGTVY66QJ4GWXR1G0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/DiskArbitration-6MDYKV83XIIVOMGMLHKB6TLNB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreGraphics-542UZCT91VR33T7FHDHNTALPM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreServices-DTVIND95YVHCL8SEMNP6XS81N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/ImageIO-94P8MMYWGG0F8VS2FB90FTICQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreText-C0BR8BCMR93AKK97TEE3GYO0N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Foundation-9WK8G6IV38YSYE0QZ029Z7IRW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/DataDetection-616F0EBDC55VAO0EN2859HS56.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreMIDI-5JTIVBOTIHTW4DHZC7TT6WFKU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreData-4YTYBTFWCPLJ8ARP27AKVQ6RE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreAudio-AF0BEVSMQM8JYRMBZFOQ7KJX1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreTransferable-4QIHK153ZM5PSLGD9ZU8XED17.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Accessibility-88FVAXYYWOEI7LU36VZH3HN3C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/IOSurface-1HQA415YGQ0PJY931OQOUVCGP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/LocalAuthentication-E1VYY1OGT0Z0PCA387C0ISK4Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/ApplicationServices-7K4FVBH03AITMF58FV3029Q3V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/OSLog-231XVM77SJQ1ZBMMR9YKLM13N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-9JO8ZQ5A0T8RSSJI10NO5OOAC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Symbols-DPRZZ274FFTL5G4IYXDIDU9RF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Metal-8HSA0TG65EQYIURO9XDHVU99E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/OpenGL-AE3CIC09CILBHHLK7FRGLJYLW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/Carbon-6P7XG2PC44TXO8VQBGAEXH4HS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreVideo-B3AO4KEFDP5ZAR8SGVZQ39OLK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/AudioToolbox-BY7P30ZGCURZPO8VWELVM0F4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreImage-6YMIQYMZL72PWICA5DFUNICBR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/QuartzCore-EU43VPI3TNGLX574YWZRBDBOM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/CoreMedia-9VHQ5XMAF3AN7723RMM9AYALS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/SwiftUICore-CRD6PUAQB3PEPPELGIEOFY4T0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/VideoToolbox-59DG3F671B77UAZECC1ZTM98X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/AVFAudio-1QJHH5UL6PGYV9FJKJ9L2L9SG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/MediaToolbox-BAGPA32LQ3PG3AMTW14K1R3OC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/AppKit-BT7KTSKLE83HQ4DKXP6MX5UEL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/AVFoundation-F0HK2H5B0UWA84SFMUK95E5KE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules/SwiftUI-4OVO9PA8O5E7BFJX4PFRX9XN8.pcm
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile GeneratedAssetSymbols.swift
+
+SwiftCompile normal arm64 Compiling\ LauncherModel.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/UI/LauncherModel.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/UI/LauncherModel.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile LauncherModel.swift
+
+SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/ContentView.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/ContentView.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile ContentView.swift
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PCL_2_13_11 (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    
+
+SwiftCompile normal arm64 Compiling\ ModpackService.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/ModpackService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/ModpackService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile ModpackService.swift
+
+SwiftCompile normal arm64 Compiling\ PCL_2_13_11App.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/PCL_2_13_11App.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/PCL_2_13_11App.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile PCL_2_13_11App.swift
+
+SwiftCompile normal arm64 Compiling\ Models.swift,\ AccountService.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Core/Models.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/AccountService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Core/Models.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile Models.swift
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/AccountService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile AccountService.swift
+
+SwiftCompile normal arm64 Compiling\ JavaService.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/JavaService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/JavaService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile JavaService.swift
+
+SwiftCompile normal arm64 Compiling\ Infrastructure.swift,\ MinecraftEngine.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Core/Infrastructure.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Core/MinecraftEngine.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Core/Infrastructure.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile Infrastructure.swift
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Core/MinecraftEngine.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile MinecraftEngine.swift
+
+SwiftCompile normal arm64 Compiling\ ResourceService.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/ResourceService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/ResourceService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile ResourceService.swift
+
+SwiftCompile normal arm64 Compiling\ LoaderInstaller.swift /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/LoaderInstaller.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftCompile normal arm64 /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11/PCL\ 2.13.11/Services/LoaderInstaller.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-SwiftPerFileCompile LoaderInstaller.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PCL_2_13_11App.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling JavaService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ResourceService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ModpackService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling LoaderInstaller.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling LauncherModel.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling Models.swift, AccountService.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling Infrastructure.swift, MinecraftEngine.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ContentView.swift (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriver\ Compilation PCL\ 2.13.11 normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-Swift-Compilation -- /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PCL_2_13_11 -Onone @/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -target arm64-apple-macos14.0 -g -module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -F /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKStatCaches.noindex/macosx27.0-26A5419a-e829b21a6f8c9b70876ba0858053c04445874285e5972fffeae925c4ab065928.sdkstatcache -output-file-map /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex -sdk-module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-generated-files.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-own-target-headers.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-project-headers.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/include -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources-normal/arm64 -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources/arm64 -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-Swift.h -working-directory /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11 -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for PCL_2_13_11 (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+SwiftDriver\ Compilation\ Requirements PCL\ 2.13.11 normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PCL_2_13_11 -Onone @/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -target arm64-apple-macos14.0 -g -module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -F /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKStatCaches.noindex/macosx27.0-26A5419a-e829b21a6f8c9b70876ba0858053c04445874285e5972fffeae925c4ab065928.sdkstatcache -output-file-map /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex -sdk-module-cache-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11_const_extract_protocols.json -Xcc -iquote -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-generated-files.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-own-target-headers.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-project-headers.hmap -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/include -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources-normal/arm64 -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources/arm64 -Xcc -I/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-Swift.h -working-directory /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11 -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources/PCL_2_13_11-Swift.h /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-Swift.h (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-swiftHeaderTool -arch arm64 /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-Swift.h -o /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/DerivedSources/PCL_2_13_11-Swift.h
+
+Copy /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL_2_13_11.swiftmodule/arm64-apple-macos.swiftmodule /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftmodule (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftmodule /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL_2_13_11.swiftmodule/arm64-apple-macos.swiftmodule
+
+Copy /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL_2_13_11.swiftmodule/arm64-apple-macos.swiftdoc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftdoc (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftdoc /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL_2_13_11.swiftmodule/arm64-apple-macos.swiftdoc
+
+Copy /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL_2_13_11.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftsourceinfo (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftsourceinfo /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL_2_13_11.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo
+
+Copy /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL_2_13_11.swiftmodule/arm64-apple-macos.abi.json /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.abi.json (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.abi.json /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL_2_13_11.swiftmodule/arm64-apple-macos.abi.json
+
+Ld /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/MacOS/PCL\ 2.13.11.debug.dylib normal (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.0 -dynamiclib -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -L/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -F/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -F/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -filelist /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11.LinkFileList -install_name @rpath/PCL\ 2.13.11.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/../Frameworks -Xlinker -object_path_lto -Xlinker /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/MacOS/PCL\ 2.13.11.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-ExecutorLinkFileList-normal-arm64.txt (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    construct-stub-executor-link-file-list /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/MacOS/PCL\ 2.13.11.debug.dylib /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+
+Ld /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/MacOS/PCL\ 2.13.11 normal (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.0 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -F/Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/../Frameworks -rdynamic -Xlinker -no_deduplicate -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11-ExecutorLinkFileList-normal-arm64.txt /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/MacOS/PCL\ 2.13.11.debug.dylib -o /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/MacOS/PCL\ 2.13.11
+
+ExtractAppIntentsMetadata (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.5252.6.XSoKKS/Metal.xctoolchain --module-name PCL_2_13_11 --sdk-root /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk --xcode-version 27A5252f --platform-family macOS --deployment-target 14.0 --bundle-identifier com.wuxiaoguo.PCL-2-13-11 --output /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/Resources --target-triple arm64-apple-macos14.0 --binary-file /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/MacOS/PCL\ 2.13.11 --dependency-file /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11_dependency_info.dat --stringsdata-file /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11.SwiftFileList --metadata-file-list /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11.DependencyMetadataFileList --static-metadata-file-list /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/PCL\ 2.13.11.DependencyStaticMetadataFileList --swift-const-vals-list /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/Objects-normal/arm64/PCL\ 2.13.11.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-07 21:40:25.516 appintentsmetadataprocessor[30315:1695789] Starting appintentsmetadataprocessor export
+2026-10-07 21:40:25.519 appintentsmetadataprocessor[30315:1695789] warning: Metadata extraction skipped, no AppIntents.framework dependency found
+
+CopySwiftLibs /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/MacOS/PCL\ 2.13.11.debug.dylib --scan-folder /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/Frameworks --scan-folder /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/PlugIns --scan-folder /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/Library/SystemExtensions --scan-folder /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/Extensions --platform macosx --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.5252.6.XSoKKS/Metal.xctoolchain --toolchain /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+ProcessInfoPlistFile /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/Info.plist /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/empty-PCL\ 2.13.11.plist (in target 'PCL 2.13.11' from project 'PCL 2.13.11')
+    cd /Users/wuxiaoguo/Code/Xcode/00_Mac\ APP/PCL\ 2.13.11
+    builtin-infoPlistUtility /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/empty-PCL\ 2.13.11.plist -producttype com.apple.product-type.application -genpkginfo /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/PCL\ 2.13.11.build/Debug/PCL\ 2.13.11.build/assetcatalog_generated_info.plist -o /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Products/Debug/PCL\ 2.13.11.app/Contents/Info.plist
+
+PruneExplicitPrecompiledModules /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/wuxiaoguo/Code/MC/启动器转译/PCL-macOS/TargetBuild/SDKExplicitPrecompiledModules
+
+** BUILD SUCCEEDED **
+

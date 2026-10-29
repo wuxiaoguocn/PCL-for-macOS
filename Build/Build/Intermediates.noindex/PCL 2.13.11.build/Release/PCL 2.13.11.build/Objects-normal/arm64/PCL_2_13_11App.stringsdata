@@ -1,0 +1,64 @@
+{
+  "source": "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/PCL_2_13_11App.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "PCL macOS 社区迁移版",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 9
+        }
+      },
+      {
+        "comment": "",
+        "key": "Minecraft",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "启动游戏",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "停止游戏",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "刷新版本",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开游戏目录",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看日志",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 21
+        }
+      }
+    ]
+  },
+  "version": 1
+}

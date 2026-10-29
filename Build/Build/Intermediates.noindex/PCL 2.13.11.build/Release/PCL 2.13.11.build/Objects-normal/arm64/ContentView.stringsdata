@@ -1,0 +1,392 @@
+{
+  "source": "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "请支持正版 Minecraft",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "支持原作者龙腾猫跃",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "任务管理",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 139,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录已购买的微软账号",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "购买正版",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "以试玩模式启动",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "返回",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "请先登录正版账号验证购买记录。未验证购买时，离线启动将使用试玩模式。",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "赞助原作者",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "下次再说",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "PCL 已为你启动 %lld 次游戏。感谢龙腾猫跃开发 PCL，欢迎支持原项目持续更新。",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "游戏版本",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择版本",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "账号",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "离线 / 试玩",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "通过系统浏览器输入设备码登录。访问令牌与刷新令牌保存在 macOS 钥匙串中。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "先到设置页填写你自己的 Microsoft 应用 Client ID。",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "添加微软账号",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用",
+        "location": {
+          "startingColumn": 151,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "移除",
+        "location": {
+          "startingColumn": 217,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "仅支持 1–16 个英文字母、数字和下划线。登录正版账号验证购买后可进行离线游玩。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "玩家名",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用离线账号",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "购买 Minecraft",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录 Microsoft 账号",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "在浏览器打开验证网址，并输入下面的设备码。",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "等待浏览器登录完成……",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "复制设备码",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开登录网页",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 133
+        }
+      },
+      {
+        "comment": "",
+        "key": "筛选日志",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 147
+        }
+      },
+      {
+        "comment": "",
+        "key": "导出",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开日志目录",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "清空显示",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "本项目基于原版 Plain Craft Launcher 源码迁移，感谢原作者龙腾猫跃提供原版代码。macOS 转译与维护由 wuxiaoguo 负责。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "赞助龙腾猫跃",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "原项目源码",
+        "location": {
+          "startingColumn": 121,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "MacOS转译：无所不能的无吴小果",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "本 macOS 项目由 wuxiaoguo 负责转译、开发与维护，是基于 PCL 2.13.1.1 独立进行二次创作的第三方项目，与 PCL 官方无隶属关系。使用帮助和问题反馈由本项目维护者提供。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用 Swift、SwiftUI、AppKit、Foundation、Security 与 AVFoundation 实现。无需 Windows 或 Wine。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "当前迁移版本：0.1.0 · 尚未达到 Windows 版的完整功能等价。完整源代码与迁移覆盖表随 Xcode 工程提供。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 181
+        }
+      },
+      {
+        "comment": "",
+        "key": "维护者主页 / 反馈",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "1. 设置 Minecraft 目录，并安装相应的 Java。\n2. 下载原版或加载器版本，或导入整合包。\n3. 配置微软 Client ID 并登录账号；未验证正版账号可使用试玩。\n4. 在启动页选择版本和账号，启动游戏。\n5. 遇到问题时，检查日志并导出诊断信息。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 185
+        }
+      },
+      {
+        "comment": "",
+        "key": "Minecraft 官网",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "帮助网页",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 187
+        }
+      },
+      {
+        "comment": "",
+        "key": "已实现：原版与 Fabric 安装、现代 Forge/NeoForge 安装器接入、版本继承、Intel/ARM 原生库选择、Java 管理、微软登录与刷新、试玩、Modrinth 资源及必需依赖、Mod 启停、整合包导入、游戏日志与基础崩溃提示、配置、背景音乐。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "尚未迁移：CurseForge API、第三方 Authlib/Nide 登录、OptiFine/LiteLoader 自动安装、EasyTier 邀请码联机、XAML 自定义主页、Windows 更新与赞助解锁系统、完整崩溃规则库和部分整合包格式。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 191
+        }
+      }
+    ]
+  },
+  "version": 1
+}

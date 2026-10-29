@@ -1,0 +1,88 @@
+{
+  "source": "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLDownloadPage.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "正在获取版本列表",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "获取版本列表失败",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "重新获取",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "开始下载",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "版本名称",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "没有可用版本",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "重试",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 159
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在获取版本列表",
+        "location": {
+          "startingColumn": 88,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "未选择",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "前往 Mod 下载",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 187
+        }
+      }
+    ]
+  },
+  "version": 1
+}

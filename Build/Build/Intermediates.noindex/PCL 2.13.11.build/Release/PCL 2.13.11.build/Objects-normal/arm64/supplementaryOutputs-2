@@ -1,0 +1,12 @@
+{
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Core/Infrastructure.swift" : {
+    "abi-baseline-json" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.abi.json",
+    "const-values" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary.swiftconstvalues",
+    "dependencies" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary.d",
+    "diagnostics" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary.dia",
+    "objc-header" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL_2_13_11-Swift.h",
+    "swiftdoc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftdoc",
+    "swiftmodule" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftmodule",
+    "swiftsourceinfo" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL_2_13_11.swiftsourceinfo"
+  }
+}

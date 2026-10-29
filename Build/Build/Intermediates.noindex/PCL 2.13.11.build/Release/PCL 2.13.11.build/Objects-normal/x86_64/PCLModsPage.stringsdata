@@ -1,0 +1,136 @@
+{
+  "source": "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLModsPage.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "搜索 Mod 名称 / 文件名 / 版本",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开文件夹",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "从文件安装",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "下载新 Mod",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 个",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "没有符合筛选条件的 Mod",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "尚未选择游戏版本",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "尚未安装 Mod",
+        "location": {
+          "startingColumn": 78,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "请先选择一个游戏版本，再安装或管理 Mod。",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "你可以下载新的 Mod，或者从已经下载好的文件安装 Mod。\n如果你已经安装了 Mod，可能是版本隔离设置有误，请在设置中调整版本隔离选项。",
+        "location": {
+          "startingColumn": 112,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "下载 Mod",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "从文件安装 Mod",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开 Mod 文件夹",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "禁用 Mod",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "启用 Mod",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "移到废纸篓",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 168
+        }
+      }
+    ]
+  },
+  "version": 1
+}

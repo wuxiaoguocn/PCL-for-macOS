@@ -1,0 +1,106 @@
+{
+  "" : {
+    "const-values" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary.swiftconstvalues",
+    "dependencies" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary.d",
+    "diagnostics" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary.dia",
+    "emit-module-dependencies" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary-emit-module.dia",
+    "pch" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL 2.13.11-primary.swiftdeps"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/ContentView.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Core/Infrastructure.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/Infrastructure.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/Infrastructure.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/Infrastructure.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Core/MinecraftEngine.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/MinecraftEngine.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/MinecraftEngine.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/MinecraftEngine.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Core/Models.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/Models.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/PCL_2_13_11App.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL_2_13_11App.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL_2_13_11App.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCL_2_13_11App.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Services/AccountService.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/AccountService.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/AccountService.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/AccountService.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Services/JavaService.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/JavaService.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/JavaService.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/JavaService.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Services/LoaderInstaller.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/LoaderInstaller.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/LoaderInstaller.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/LoaderInstaller.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Services/ModpackService.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ModpackService.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ModpackService.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ModpackService.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/Services/ResourceService.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ResourceService.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ResourceService.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/ResourceService.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/LauncherModel.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/LauncherModel.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/LauncherModel.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/LauncherModel.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLDownloadPage.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLDownloadPage.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLDownloadPage.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLDownloadPage.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLLayout.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLLayout.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLLayout.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLLayout.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLLibraryPages.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLLibraryPages.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLLibraryPages.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLLibraryPages.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLModsPage.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLModsPage.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLModsPage.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLModsPage.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLSettingsPage.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLSettingsPage.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLSettingsPage.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLSettingsPage.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLTheme.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLTheme.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLTheme.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLTheme.o"
+  },
+  "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/PCL 2.13.11/UI/PCLVector.swift" : {
+    "index-unit-output-path" : "/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLVector.o",
+    "llvm-bc" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLVector.bc",
+    "object" : "/Users/wuxiaoguo/Code/Xcode/00_Mac APP/PCL 2.13.11/Build/Build/Intermediates.noindex/PCL 2.13.11.build/Release/PCL 2.13.11.build/Objects-normal/arm64/PCLVector.o"
+  }
+}

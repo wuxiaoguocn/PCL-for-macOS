@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>C075F552-8A5E-40EA-AC88-00AFDEECA0A2</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C075F552-8A5E-40EA-AC88-00AFDEECA0A2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PCL 2.13.11 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PCL 2.13.11</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project PCL 2.13.11 with scheme PCL 2.13.11 and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>813160912.93320501</real>
+			<key>timeStoppedRecording</key>
+			<real>813160926.68152499</real>
+			<key>title</key>
+			<string>Building project PCL 2.13.11 with scheme PCL 2.13.11 and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>C075F552-8A5E-40EA-AC88-00AFDEECA0A2</string>
+		</dict>
+		<key>DC529639-AFEE-4A3C-BE45-BF7F84F9EFCB</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DC529639-AFEE-4A3C-BE45-BF7F84F9EFCB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PCL 2.13.11 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PCL 2.13.11</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project PCL 2.13.11 with scheme PCL 2.13.11 and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>813161427.49900997</real>
+			<key>timeStoppedRecording</key>
+			<real>813161438.80946898</real>
+			<key>title</key>
+			<string>Building project PCL 2.13.11 with scheme PCL 2.13.11 and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>DC529639-AFEE-4A3C-BE45-BF7F84F9EFCB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
